@@ -49,3 +49,11 @@ div div{/* Peso: 1 + 1 = 2*/
 h1, h2, h3, h4, h5, h6{/*Pesi: 1, 1, 1, 1, 1, 1*/
     color:#808080
 }
+
+
+/* salezionare un singolo elemento aumentando la specificità */
+
+div#test.classe1.classe2{/*Peso: 1 + 100 + 10 + 10*/
+    height: 100px;
+    background-color:yellow
+}
